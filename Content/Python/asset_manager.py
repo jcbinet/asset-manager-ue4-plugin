@@ -40,7 +40,7 @@ def import_asset():
     ])
 
     # Get parent material for new material instance
-    base_material = unreal.load_asset('/Game/Materials/M_BaseSurface')
+    base_material = unreal.load_asset('/AssetManager/BaseMaterials/M_BaseSurface')
 
     # Albedo
     albedo = unreal.load_asset(destination_path + '/' + asset_name + '_Albedo')
